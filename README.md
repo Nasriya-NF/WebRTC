@@ -31,23 +31,23 @@ Before you begin, ensure you have the following installed:
 git clone https://github.com/Nasriya-NF/webrtc-music-jam.git
 cd webrtc-music-jam
 
-##Install Dependencies
+Install Dependencies
 **npm install**
 
-##Start the server
+Start the server
 **npm start*
 
-##HOW IT WORKS
-**Once access is granted, the local media stream will be displayed in a video element on the webpage.
+HOW IT WORKS
+Once access is granted, the local media stream will be displayed in a video element on the webpage.
 
 The server uses Socket.io to handle signaling and exchange WebRTC offers, answers, and ICE candidates between users to establish a peer-to-peer connection.
 
 The application allows for muting/unmuting the microphone and toggling the camera during the call.
 
-A text chat feature is available to send messages during the session.**
+A text chat feature is available to send messages during the session.
 
-##License
-**This project is licensed under the MIT License - see the LICENSE file for details.**
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ##Acknowledgments
 WebRTC
